@@ -1,0 +1,85 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tarot Sunshine</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 0; padding: 0; background: #fff9f0; color: #333; }
+    header, footer { background: #f4d35e; padding: 1em; text-align: center; }
+    nav a { margin: 0 15px; text-decoration: none; color: #333; font-weight: bold; }
+    main { padding: 2em; }
+    section { margin-bottom: 2em; }
+    form { display: flex; flex-direction: column; max-width: 400px; margin: auto; }
+    input, select, textarea { margin: 0.5em 0; padding: 0.5em; }
+    button { padding: 0.5em; background: #f4a261; border: none; cursor: pointer; }
+    button:hover { background: #e76f51; color: white; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Tarot Sunshine</h1>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#services">Services</a>
+      <a href="#booking">Booking</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+  
+  <main>
+    <section id="home">
+      <h2>Welcome to Tarot Sunshine</h2>
+      <p>Your spiritual guide to clarity and insight. Book a tarot reading and discover what the cards reveal for you.</p>
+    </section>
+
+    <section id="about">
+      <h2>About Me</h2>
+      <p>I'm Ashley, a passionate tarot reader helping people find clarity, direction, and peace. Whether you’re seeking answers about love, career, finances, or health, I’m here to guide you with care and intuition.</p>
+    </section>
+
+    <section id="services">
+      <h2>My Services</h2>
+      <ul>
+        <li>Love, Career, Financial, and Health Readings - MUR 500</li>
+        <li>General Readings - MUR 1000</li>
+      </ul>
+    </section>
+
+    <section id="booking">
+      <h2>Book Your Reading</h2>
+      <form action="mailto:your.email@example.com" method="POST" enctype="text/plain">
+        <label for="name">Full Name:</label>
+        <input type="text" id="name" name="name" required />
+
+        <label for="email">Email Address:</label>
+        <input type="email" id="email" name="email" required />
+
+        <label for="type">Type of Reading:</label>
+        <select id="type" name="type">
+          <option>Love, Career, Financial, or Health Reading</option>
+          <option>General Reading</option>
+        </select>
+
+        <label for="date">Preferred Date & Time:</label>
+        <input type="text" id="date" name="date" placeholder="e.g. 25 May, 3PM" required />
+
+        <button type="submit">Submit Booking</button>
+      </form>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>Phone: 57191126</p>
+      <p>Email: your.email@example.com</p>
+      <p>Follow me on TikTok: <a href="https://www.tiktok.com/@tarotsunshine" target="_blank">@tarotsunshine</a></p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Tarot Sunshine. All rights reserved.</p>
+  </footer>
+</body>
+</html>
